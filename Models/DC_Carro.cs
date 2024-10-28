@@ -6,6 +6,7 @@ namespace DanielAdrianCornejo_Examen1P.Models
     [Table("DC_Tabla1")]
     public class DC_Carro
     {
+        [Key]
         public int DC_CarroID { get; set; }
         public int DC_Cantidad { get; set; }
         [StringLength(50, MinimumLength = 4)]
