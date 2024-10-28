@@ -7,8 +7,8 @@ namespace DanielAdrianCornejo_Examen1P.Models
     public class DC_Carro
     {
         public int DC_CarroID { get; set; }
-        [StringLength(50, MinimumLength =4)]
         public int DC_Cantidad { get; set; }
+        [StringLength(50, MinimumLength = 4)]
         public string? DC_Marca { get; set; }
         [Range(0.01 , 99.99)]
         public decimal DC_Precio { get; set; }
